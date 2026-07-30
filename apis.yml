@@ -1,22 +1,64 @@
 aid: lendup-global
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lendup-global.png
 name: LendUp Global
-description: LendUp Global is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: LendUp Global, Inc. was a San Francisco consumer-lending fintech backed by a16z, operating
+  through LendUp Loans, LLC (formerly Flurish, Inc.) to offer short-term and installment credit to
+  subprime borrowers. The company is DEFUNCT — LendUp Loans, LLC ceased loan operations in January 2022.
+  It has no live developer surface, no public API, no documentation host, and no maintained code
+  repositories. The lendup.com domain is now operated by an unrelated entity (LendUp LLC, Dover, DE)
+  that publicly disclaims any corporate relationship to LendUp Global, Inc.; its properties must NOT be
+  attributed to this company profile. Retained in the network as a historical a16z portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/lendup-global/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail: LendUp Loans, LLC (operating entity of LendUp Global, Inc.) ceased loan operations in
+  January 2022. No successor developer surface under this entity.
+x-status-evidence: https://www.lendup.com/about/
+x-status-verified: '2026-07-19'
+x-do-not-attach:
+- domain: lendup.com
+  reason: 'Now operated by LendUp LLC (8 The Green STE A, Dover, DE 19901), an unrelated loan-matching
+    lead-generation business. Its own site states: "This entity has no ownership, corporate, or
+    operational relationship to the former LendUp Loans, LLC (formerly Flurish, Inc.), LendUp Global,
+    Inc., or their former executives." Wiring this domain into this profile would misattribute a
+    different company''s surfaces.'
+  verified: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Lending
+- Consumer Credit
+- Defunct
+- Historical
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
