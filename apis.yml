@@ -55,7 +55,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Consumer Credit
@@ -69,6 +69,7 @@ tags_raw:
 - Consumer Credit
 - Defunct
 - Historical
+- Financial-Services
 apis: []
 common: []
 maintainers:
