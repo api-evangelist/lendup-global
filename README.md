@@ -64,25 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: DEFUNCT — no API surface. Do not enrich.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-LendUp Global, Inc. was a San Francisco consumer-lending fintech backed by a16z, operating through
-LendUp Loans, LLC (formerly Flurish, Inc.). LendUp Loans, LLC **ceased loan operations in January 2022**.
+LendUp Global, Inc. was a San Francisco consumer-lending fintech backed by a16z, operating through LendUp Loans, LLC (formerly Flurish, Inc.) to offer short-term and installment credit to subprime borrowers. The company is DEFUNCT — LendUp Loans, LLC ceased loan operations in January 2022. It has no live developer surface, no public API, no documentation host, and no maintained code repositories. The lendup.com domain is now operated by an unrelated entity (LendUp LLC, Dover, DE) that publicly disclaims any corporate relationship to LendUp Global, Inc.; its properties must NOT be attributed to this company profile. Retained in the network as a historical a16z portfolio record.
 
-There is no live developer portal, documentation host, public API, or maintained code repository for
-this entity. The enrichment pipeline produced no artifacts, and that is the correct result.
+**Areas:** Company · Financial Services · Fintech · Lending · Consumer Credit · Defunct · Historical
 
-## Do not attach lendup.com
+## LendUp Global on APIs.io (historical record)
 
-The `lendup.com` domain is live but is operated by **LendUp LLC** (8 The Green STE A, Dover, DE 19901),
-an unrelated loan-matching lead-generation business. That site states on its own about page:
+Everything profiled for LendUp Global is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lendup-global/](https://apis.io/providers/lendup-global/)** — or go straight to one of the APIs or properties below.
 
-> This entity has no ownership, corporate, or operational relationship to the former LendUp Loans, LLC
-> (formerly Flurish, Inc.), LendUp Global, Inc., or their former executives.
+## API Evangelist rating
 
-Wiring that domain — or any artifact probed from it — into this profile would misattribute a different
-company's surfaces. `apis.yml` carries an `x-do-not-attach` entry to prevent this on future rounds.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-Backed by: a16z (historical)
+## How this profile is made
 
-Verified: 2026-07-19
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LendUp Global: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lendup-global/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
